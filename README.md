@@ -1,10 +1,10 @@
-# quadcopter
+# 課題研究 - 無人航空機の制作
 
-コントローラー
+<h1>コントローラー</h1>
 	・Arduino(EasyWordMall UNO R3開発ボード)
 	・送信モジュール(RF315-TX5-R)
 	・受信モジュール(RF315-RXB12)
-クアッドコプター(GPS緯度経度, 高さ)
+機体(GPS緯度経度, 高さ)
 	・Arduino(EasyWordMall UNO R3開発ボード)
 	・送信モジュール(RF315-TX5-R)
 	・受信モジュール(RF315-RXB12)
