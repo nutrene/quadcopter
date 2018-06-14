@@ -28,9 +28,10 @@
 	<li>3500JPY ブラシレスモーター GoolRC 4個 X2212</li>
 	<li>1296JPY 京商 Li-Poバッテリー DR013<\li>
 	<li>3100JPY Quick-Release Propellers 4個</li>
+	<li>4712JPY GoolRC RC ESC 4個</li>
 </ul>
 		
-<h2>見積価格: 14,251 JPY</h2>
+<h2>見積価格: 18,963 JPY</h2>
 
 <h2>検討</h2>
 <ul>
