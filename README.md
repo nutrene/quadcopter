@@ -5,6 +5,7 @@
 	<li>Arduino(EasyWordMall UNO R3開発ボード)</li>
 	<li>送信モジュール 50m(RF315-TX5-R) --+-- 単向なので送受両方を買う必要が有る</li>
 	<li>受信モジュール(RF315-RXB12) -------+</li>
+	<li>ジョイスティック EasyWordMall KY-023  2個</li>
 </ul>
 
 <h2>機体(GPS緯度経度, 高さ)</h2>
