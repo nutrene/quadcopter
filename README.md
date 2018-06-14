@@ -1,14 +1,14 @@
 # 課題研究 - ドローンの制作(柳川陸 高田大輔)
 
 <h2>コントローラー設計</h2>
-<strong>左アナログスティック上</strong> -> 前進<br>
-<strong>左アナログスティック下</strong> -> 後退<br>
-<strong>左アナログスティック右</strong> -> 右移動<br>
-<strong>左アナログスティック左</strong> -> 左移動<br>
-<strong>右アナログスティック上</strong> -> 上昇<br>
-<strong>右アナログスティック下</strong> -> 下降<br>
-<strong>右アナログスティック右</strong> -> 右回転<br>
-<strong>右アナログスティック左</strong> -> 左回転<br>
+<strong>左ジョイスティック上</strong> -> 前進<br>
+<strong>左ジョイスティック下</strong> -> 後退<br>
+<strong>左ジョイスティック右</strong> -> 右移動<br>
+<strong>左ジョイスティック左</strong> -> 左移動<br>
+<strong>右ジョイスティック上</strong> -> 上昇<br>
+<strong>右ジョイスティック下</strong> -> 下降<br>
+<strong>右ジョイスティック右</strong> -> 右回転<br>
+<strong>右ジョイスティック左</strong> -> 左回転<br>
 
 <h2>コントローラー</h2>
 <ul>
