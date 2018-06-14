@@ -2,7 +2,7 @@
 
 <h2>コントローラー</h2>
 <ul>
-	<b>999999</b><li>Arduino(EasyWordMall UNO R3開発ボード)</li>
+	<li>Arduino(EasyWordMall UNO R3開発ボード)</li><b>99999</b>
 	<li>送信モジュール 50m(RF315-TX5-R) --+-- 単向なので送受両方を買う必要が有る</li>
 	<li>受信モジュール(RF315-RXB12) -------+</li>
 	<li>ジョイスティック EasyWordMall KY-023  2個</li>
