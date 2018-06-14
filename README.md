@@ -26,12 +26,14 @@
 	<li>2100JPY GPSモジュール 衛星みちびき3機対応(AE-GYSFDMAXB) 確度約2m 5個</li>
 	<li>597JPY 超音波距離センサー最大4m(HC-SR04)※条件次第ではSHARP製のセンサーを使う可能性有り</li>
 	<li>3500JPY ブラシレスモーター GoolRC 4個 X2212</li>
-	<li>1296JPY 京商 Li-Poバッテリー DR013<\li>
+	<li>2670JPY DBPOWER ドローン バッテリー 7.4V 1800mAh Bugs33<\li>
 	<li>3100JPY Quick-Release Propellers 4個</li>
-	<li>4712JPY GoolRC RC ESC 4個</li>
+	<li>3950JPY ARRIS(アリス) Swift シリーズ BLHeli ESC 4個</li>
+	<li>4398JPY GoolRC F3 ブラシ付きフライトコントローラー</li>
+	<li>3206JPY Hobbypower X525 V3</li>
 </ul>
 		
-<h2>見積価格: 18,963 JPY</h2>
+<h2>見積価格: 27,179 JPY</h2>
 
 <h2>検討</h2>
 <ul>
