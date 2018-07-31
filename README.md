@@ -13,14 +13,14 @@
 <h2>コントローラー</h2>
 <ul>
 	<li>499JPY Arduino(EasyWordMall UNO R3開発ボード)</li>
-	<li>540JPY 微弱無線送受信モジュールnRF24L01(2.4GHz)</li>
+	<li>XBee系？の通信モジュールを使う可能性大</li>
 	<li>436JPY ジョイスティック EasyWordMall KY-023  2個</li>
 </ul>
 
 <h2>機体(GPS緯度経度, 高さ)</h2>
 <ul>
 	<li>499JPY Arduino(EasyWordMall UNO R3開発ボード)</li>
-	<li>540JPY 微弱無線送受信モジュールnRF24L01(2.4GHz)</li>
+	<li>XBee系？の通信モジュールを使う可能性大</li>
 	<li>2100JPY GPSモジュール 衛星みちびき3機対応(AE-GYSFDMAXB) 確度約2m 5個</li>
 	<li>597JPY 超音波距離センサー最大4m(HC-SR04)※条件次第ではSHARP製のセンサーを使う可能性有り</li>
 	<li>3370JPY Emax BLHeli 12A 2-4S ブラシレス ESC</li>
