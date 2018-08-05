@@ -1,19 +1,10 @@
 # 課題研究 - ドローンの制作
 
-<h2>コントローラー設計</h2>
-<strong>左ジョイスティック上</strong> -> 前進<br>
-<strong>左ジョイスティック下</strong> -> 後退<br>
-<strong>左ジョイスティック右</strong> -> 右移動<br>
-<strong>左ジョイスティック左</strong> -> 左移動<br>
-<strong>右ジョイスティック上</strong> -> 上昇<br>
-<strong>右ジョイスティック下</strong> -> 下降<br>
-<strong>右ジョイスティック右</strong> -> 右回転<br>
-<strong>右ジョイスティック左</strong> -> 左回転<br>
-
 <h2>コントローラー</h2>
 <ul>
 	<li>499JPY Arduino(EasyWordMall UNO R3開発ボード)</li>
 	<li>XBee系？の通信モジュールを使う可能性大</li>
+	<li>XBeeのシールド類</li>
 	<li>436JPY ジョイスティック EasyWordMall KY-023  2個</li>
 </ul>
 
@@ -21,6 +12,7 @@
 <ul>
 	<li>499JPY Arduino(EasyWordMall UNO R3開発ボード)</li>
 	<li>XBee系？の通信モジュールを使う可能性大</li>
+	<li>XBeeのシールド類</li>
 	<li>2100JPY GPSモジュール 衛星みちびき3機対応(AE-GYSFDMAXB) 確度約2m 5個</li>
 	<li>597JPY 超音波距離センサー最大4m(HC-SR04)※条件次第ではSHARP製のセンサーを使う可能性有り</li>
 	<li>3370JPY Emax BLHeli 12A 2-4S ブラシレス ESC</li>
