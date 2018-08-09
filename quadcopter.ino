@@ -1,8 +1,23 @@
 #include<Servo.h>
 
 const int MIN = 1130, MAX = 1400;
+int counter = 0;
+int left_x, left_y, right_x, right_y;
+char buff[30];
 
 Servo motor1, motor2, motor3, motor4;
+
+int motor1_speed = 0, motor2_speed = 0, motor3_speed = 0, motor4_speed = 0;
+
+void show(String a, String b, String c, String d){
+  Serial.print(a);
+  Serial.print("\t");
+  Serial.print(b);
+  Serial.print("\t");
+  Serial.print(c);
+  Serial.print("\t");
+  Serial.println(d);
+}
 
 void setup() {
   // PIN7=MOTOR1, PIN8=MOTOR2, PIN12=MOTOR3, PIN13=MOTOR4;
@@ -15,22 +30,26 @@ void setup() {
 }
 
 void loop() {
-  int motor1_speed, motor2_speed, motor3_speed, motor4_speed;
-  // 0から1023の間で回転速度を決定する。
-  motor1_speed = map(analogRead(A0), 0, 1023, MIN, MAX);
-  motor2_speed = map(analogRead(A1), 0, 1023, MIN, MAX);
-  motor3_speed = map(analogRead(A2), 0, 1023, MIN, MAX);
-  motor4_speed = map(analogRead(A3), 0, 1023, MIN, MAX);
+  if (Serial.available()) {
+    buff[counter] = Serial.read();
+    if (counter > 30 || buff[counter] == '\n') {
+      buff[counter] = '\0';
+      left_x=atoi(strtok(buff,","));
+      left_y=atoi(strtok(NULL,","));
+      right_x=atoi(strtok(NULL,","));
+      right_y=atoi(strtok(NULL,","));
+      counter = 0;
+      show((String)left_x, (String)left_y, (String)right_x, (String)right_y);
+    }else{
+      counter++;
+    }
+  }
   
-  Serial.print(motor1_speed, DEC);
-  Serial.print("\t");
-  Serial.print(motor2_speed, DEC);
-  Serial.print("\t");
-  Serial.print(motor3_speed, DEC);
-  Serial.print("\t");
-  Serial.print(motor4_speed, DEC);
-  Serial.print("\t");
-  Serial.write("\n");
+  // 0から1023の間で回転速度を決定する。
+  motor1_speed = map(left_y, -472, 493, MIN, MAX);
+  motor2_speed = map(left_y, -472, 493, MIN, MAX);
+  motor3_speed = map(left_y, -472, 493, MIN, MAX);
+  motor4_speed = map(left_y, -472, 493, MIN, MAX);
 
   // 各ブラシレスモーターへ回転速度を伝達。
   motor1.writeMicroseconds(motor1_speed);
