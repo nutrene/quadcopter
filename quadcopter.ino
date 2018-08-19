@@ -1,6 +1,6 @@
 #include<Servo.h>
 
-const int MIN = 1130, MAX = 1400;
+const int MIN = 1130, MAX = 2000;
 int counter = 0;
 int left_x, left_y, right_x, right_y;
 char buff[30];
@@ -50,6 +50,9 @@ void loop() {
   motor2_speed = map(left_y, -472, 493, MIN, MAX);
   motor3_speed = map(left_y, -472, 493, MIN, MAX);
   motor4_speed = map(left_y, -472, 493, MIN, MAX);
+
+  motor1_speed *= 0.993;
+  motor2_speed *= 0.993;
 
   // 各ブラシレスモーターへ回転速度を伝達。
   motor1.writeMicroseconds(motor1_speed);
