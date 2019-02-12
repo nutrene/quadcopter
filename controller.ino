@@ -11,10 +11,8 @@ int pos = 0;
 bool ispush = false;
 /////////////////////////////
 
-void setup()
-{
+void setup(){
     Serial.begin(9600);
-    
     ////////// 調整器用 //////////
     pinMode(5, INPUT);
     pinMode(6, INPUT);
@@ -53,19 +51,22 @@ void loop(){
     String string_left_x = (String)left_x + ',';
     String string_left_y = (String)left_y + ',';
     String string_right_x = (String)right_x + ',';
-    String string_right_y = (String)right_y;
+    String string_right_y = (String)right_y + ',';
 
-    
+    String string_w1 = (String)weight[0] + ',';
+    String string_w2 = (String)weight[1] + ',';
+    String string_w4 = (String)weight[2];
+
     Serial.print(string_left_x);
     Serial.print(string_left_y);
     Serial.print(string_right_x);
-    Serial.println(string_right_y);
+    Serial.print(string_right_y);
 
     ////////// 調整器用出力 //////////
-    Serial.print((pos == 0 ? "@" : "") + (String)weight[0] + ',');
-    Serial.print((pos == 1 ? "@" : "") + (String)weight[1] + ',');
-    Serial.println((pos == 2 ? "@" : "") + (String)weight[2]);
+    Serial.print(string_w1);
+    Serial.print(string_w2);
+    Serial.println(string_w4);
     ///////////////////////////////
-    
+
     delay(50);
 }
